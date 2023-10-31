@@ -1,0 +1,74 @@
+.gabiskin__hero__firstslider,
+.gabiskin__hero__secondslider,
+.gabiskin__hero__thirdslider {
+  padding: 100px 130px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.gabiskin__hero__firstslider-leftside-main p,
+.gabiskin__hero__secondslider-leftside-main p,
+.gabiskin__hero__thirdslider-leftside-main p {
+  font-size: 30px;
+  padding: 10px 0 20px 10px;
+  opacity: 0.8;
+  font-weight: 700;
+}
+.gabiskin__hero__firstslider-leftside-main .title,
+.gabiskin__hero__secondslider-leftside-main .title,
+.gabiskin__hero__thirdslider-leftside-main .title {
+  font-size: 25px;
+  padding: 100px 0 20px;
+}
+.price {
+  font-size: 25px;
+  color: #fff;
+  padding: 20px 0 30px;
+  font-weight: bolder;
+  opacity: 0.6;
+}
+.price small del {
+  color: #6c757d;
+  padding-left: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+  font-style: italic;
+}
+.shopnow-button {
+  border: none;
+  border-radius: 3px;
+  background-color: red;
+  color: #fff;
+  height: 45px;
+  width: 130px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.5s;
+  opacity: 0.7;
+}
+.shopnow-button:hover {
+  opacity: 1;
+}
+
+.gabiskin__hero__button--left, 
+.gabiskin__hero__button--right {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 40%;
+  font-size: 70px !important;
+  cursor: pointer;
+  color: red;
+  font-weight: bolder;
+  opacity: 0.9;
+  transition: 0.5s;
+}
+.gabiskin__hero__button--left {
+  left: 0;
+}
+.gabiskin__hero__button--right {
+  right: 0;
+}
+.gabiskin__hero__button--left:hover,
+.gabiskin__hero__button--right:hover {
+  opacity: 1;
+}
+

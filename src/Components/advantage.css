@@ -1,0 +1,33 @@
+.gabiskin__advantage {
+  margin: 70px 0 0;
+}
+.gabiskin__advantage-title {
+  font-size: 30px;
+  font-weight: 1000;
+  text-align: center;
+  margin: 30px 0 0;
+  opacity: 1 !important;
+}
+.icon-red {
+  color: red;
+  font-size: 45px !important;
+  margin-right: 20px;
+  padding-top: 5px;
+}
+.gabiskin__advantage-main__first,
+.gabiskin__advantage-main__second,
+.gabiskin__advantage-main__third,
+.gabiskin__advantage-main__fourth {
+  display: flex;
+}
+.gabiskin__advantage-main {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 120px;
+}
+.gabiskin__advantage-main__first-right,
+.gabiskin__advantage-main__second-right,
+.gabiskin__advantage-main__third-right,
+.gabiskin__advantage-main__fourth-right {
+  font-size: 20px;
+}

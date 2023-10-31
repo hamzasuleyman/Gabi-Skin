@@ -1,0 +1,91 @@
+.gabiskin__category-title {
+  font-size: 30px;
+  font-weight: 1000;
+  text-align: center;
+  margin: 30px 0 50px;
+  opacity: 1 !important;
+}
+.gabiskin__category-main__title {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  overflow-y: hidden !important;
+  overflow-x: scroll !important;
+  transition: transform 450ms;
+}
+.gabiskin__category-main__title::-webkit-scrollbar,
+.gabiskin__category-main__product::-webkit-scrollbar {
+  display: none;
+}
+.gabiskin__category-main__title p {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 10px 20px 50px;
+  cursor: pointer;
+  transition: 0.4s;
+  opacity: 0.9 !important;
+}
+.top {
+  color: rgb(9, 255, 0);
+  opacity: 1;
+}
+.gabiskin__category-main__title p:hover {
+  opacity: 1;
+  transform: scale(1.09);
+  color: red;
+}
+.gabiskin__category-main__product {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 35px 15px;
+  overflow-y: hidden !important;
+  overflow-x: scroll !important;
+  transition: transform 450ms;
+}
+.gabiskin__category-main__product-main__image img {
+  width: 130px;
+}
+.gabiskin__category-main__product-main__text {
+  text-align: center;
+}
+.gabiskin__category-main__product-main__image-one img,
+.gabiskin__category-main__product-main__image-two img {
+  width: 220px;
+  margin: 10px 0 15px;
+}
+.gabiskin__category-main__product-main__image-five img {
+  margin: 0 55px;
+}
+.gabiskin__category-main__product-main__image-six img {
+  margin: 40px 0 25px;
+  width: 160px;
+}
+.gabiskin__category-main__product-main__button {
+  border: none;
+  border-radius: 2px;
+  background-color: red;
+  color: #fff;
+  height: 25px;
+  width: 90px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+  opacity: 0.7;
+  margin-top: 15px;
+}
+.gabiskin__category-main__product-main__button:hover {
+  opacity: 1;
+}
+.gabiskin__category-main__product-main {
+  border: 1px solid #f9f9f93f;
+  width: 200px;
+  height: 280px;
+  text-align: center;
+  padding-top: 30px;
+  border-radius: 2px;
+}
+.gabiskin__category-main__product-main__text-one {
+  border-bottom: 1px solid #f9f9f93f;
+  padding-bottom: 15px;
+  opacity: 1 !important;
+}
